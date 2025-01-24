@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://playwright-bot-beta.vercel.app
+
+# Sitemaps
+Sitemap: https://playwright-bot-beta.vercel.app/sitemap.xml
