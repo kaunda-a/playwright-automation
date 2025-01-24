@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ class only runs when LaunchEnhancedInstance is launched and uses the same browser instance. 
 
-## Getting Started
+playwright-extra playwright-extra-plugin-stealth
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+maintains the core functionality of original code while incorporating improvements. The structure remains familiar, ensuring easy integration with your existing system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+{
+  "type": "GoogleSearch",
+  "parameters": {
+    "searchQuery": "OpenAI GPT-4",
+    "additionalParam": "exampleValue"
+  },
+  "url": "https://www.google.com",
+  "googleSearchQuery": "OpenAI GPT-4",
+  "googleSearchTarget": "openai.com",
+  "actions": [
+    {
+      "type": "type",
+      "selector": "input[name='q']",
+      "value": "OpenAI GPT-4"
+    },
+    {
+      "type": "wait",
+      "duration": 2000
+    },
+    {
+      "type": "click",
+      "selector": "input[name='btnK']"
+    },
+    {
+      "type": "wait",
+      "duration": 3000
+    },
+    {
+      "type": "scroll",
+      "value": "100"
+    },
+    {
+      "type": "hover",
+      "selector": "a[href*='openai.com']"
+    },
+    {
+      "type": "click",
+      "selector": "a[href*='openai.com']"
+    }
+  ]
+}
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+git add .
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+git commit -m "OAuth session"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+git push origin main
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+allowing for a transparent background.
+Added a backdrop blur effect for a more modern look.
+Increased the max-width for a larger banner.
+Enhanced the icon animation with a rotation effect.
+Improved typography with larger font sizes and adjusted colors for better contrast.
+Added a gradient and shadow effect to the button for a more polished look.
+Adjusted the layout for better spacing and visual appeal.
+Ensured dark mode compatibility with appropriate color adjustments."# playwright-automation" 
